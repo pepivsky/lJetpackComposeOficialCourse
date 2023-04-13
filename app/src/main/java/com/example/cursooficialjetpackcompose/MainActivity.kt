@@ -17,6 +17,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.cursooficialjetpackcompose.ui.practice.composeBasics.Article
 import com.example.cursooficialjetpackcompose.ui.theme.CursoOficialJetpackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,10 +30,11 @@ class MainActivity : ComponentActivity() {
                     //modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    BirthdayGreetingWithImage(
+                    /*BirthdayGreetingWithImage(
                         getString(R.string.happy_birthday_text),
                         getString(R.string.signature_text)
-                    )
+                    )*/
+                    Article()
                 }
             }
         }
